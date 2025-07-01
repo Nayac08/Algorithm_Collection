@@ -157,20 +157,4 @@ vector<vector<int>> permutation_nk_replacement(int n, int k)
   return allSol;
 }
 
-// utilities
-template <typename T>
-void print_2d_array(const vector<vector<T>> &A)
-{
-  if (A.empty())
-    return;
-  for (int i = 0; i < A.size(); i++)
-  {
-    for (int j = 0; j < A[i].size(); j++)
-    {
-      cout << A[i][j] << " ";
-    }
-    cout << endl;
-  }
-}
-
 #endif // COMBINATORICS_H
