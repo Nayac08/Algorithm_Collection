@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// Print 1D Array - O(n)
 template <typename T>
 void print_1d_array(const vector<T> &A)
 {
@@ -16,6 +17,7 @@ void print_1d_array(const vector<T> &A)
     cout << endl;
 }
 
+// Print 2D Array - O(m*n)
 template <typename T>
 void print_2d_array(const vector<vector<T>> &A)
 {
